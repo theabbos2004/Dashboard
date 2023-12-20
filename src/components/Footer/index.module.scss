@@ -1,0 +1,11 @@
+.Footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    .right{
+        display: flex;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,23 @@
+.search_section{
+    display: flex;
+    border: 0.1rem solid var(--color-brand--4);
+    border-radius: 1rem;
+    background:linear-gradient(-80deg,var(--color-brand--1),var(--color-brand--2) 50%);
+    color: var(--color-brand--4);
+    padding: 0.5rem 1rem;
+    .icon_section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input_section{
+        margin-left: 1rem;
+        input{
+            font-size: 1.5rem;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--color-brand--4);
+        }
+    }
+}

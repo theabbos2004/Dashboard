@@ -1,0 +1,17 @@
+.pathURL_sector{
+        display: flex;
+        font-size: 1.5rem;
+        .pathURL_item{
+            display: flex;
+            p{
+                margin: 0 0.5rem;
+            }
+        }
+        .pathURL_item_active{
+            display: flex;
+            color: var(--color-white);
+            p{
+                display: none;
+            }
+        }
+    }

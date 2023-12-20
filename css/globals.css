@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.cdnfonts.com/css/geometria");
+:root {
+  --color-brand--1: #c53720;
+  --color-brand--2: #1d1d1d;
+  --color-brand--3: #2D2D2D;
+  --color-brand--4: #000000;
+  --color-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "ABeeZee", sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 10rem;
+  margin: 0 auto;
+}
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 10rem;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 6rem;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+a {
+  text-decoration: none;
+}

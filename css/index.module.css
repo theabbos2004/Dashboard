@@ -1,0 +1,12 @@
+.partners {
+  margin: 80px 0px;
+}
+
+.partners__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.partners__item {
+  max-width: 100px;
+}

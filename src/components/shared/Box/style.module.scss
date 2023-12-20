@@ -1,0 +1,12 @@
+.Box{
+    position: relative;
+    padding: 1.5rem;
+    background: linear-gradient(-80deg, var(--color-brand--1), var(--color-brand--2) 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}

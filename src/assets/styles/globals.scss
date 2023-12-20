@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/abeezee");
+
+:root {
+  --active-bg-1:rgba(26, 31, 55, 1);
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-brand--1: rgba(10, 14, 35, 0.71);
+  --color-brand--2: rgba(6, 11, 38, 0.94);
+  --color-brand--3:#0075FF;
+  --color-brand--4:#A0AEC0;
+  --color-brand--5:#01B574;
+  --color-brand--6:#F53C2B;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "abeezee";
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media (max-width: 1200px) {
+    font-size: 62.5%;
+  }
+  @media (max-width: 992px) {
+    font-size: 46%;
+  }
+  @media (max-width: 768px) {
+    font-size: 31.25%;
+  }
+}
+
+body {
+  font-family: "ABeeZee", sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  padding: 2rem 2rem;
+
+  // XX-Large devices (larger desktops, 1400px and up)
+  @media (max-width: 1400px) {
+    padding: 2rem 2rem;
+  }
+
+  // X-Large devices (large desktops, 1200px and up)
+  @media (max-width: 1200px) {
+    padding: 1.7rem 1.7rem;
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (max-width: 992px) {
+    padding: 1.4rem 1.4rem;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @media (max-width: 768px) {
+    padding: 1.1rem 1.1rem;
+  }
+
+  @media (max-width: 576px) {
+    padding: 0.8rem 0.8rem;
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+a {
+  text-decoration: none;
+}

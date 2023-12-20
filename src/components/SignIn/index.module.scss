@@ -1,0 +1,53 @@
+.SignIn_page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    .left_sector{
+        position: relative;
+        height: 100%;
+        background-image: url("../../assets/img/sign-in-bg.png");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-white);
+    }
+    .right_sector{
+        position: relative;
+        height: 100%;
+        padding: 5rem;
+        background:linear-gradient(135deg,rgba(15, 18, 59, 1),rgba(2, 5, 21, 1));
+        color: var(--color-brand--4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        form{
+            border: 0.2rem solid #aaaaaa8a;
+            border-radius: 2rem;
+            background-image: linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(138, 138, 138, 0.26));
+            backdrop-filter: blur(0.2rem);
+            gap:0.1rem;
+            padding:2rem 2rem;
+            display:flex;
+            flex-direction:column;
+            margin-top: 1rem;
+            color:var(--color-white)
+        }
+        .formInput{
+            font-size: 1.5rem;
+            background:linear-gradient(-45deg, var(--active-bg-1), var(--color-brand--1));
+            backdrop-filter: blur(0.2rem);
+            border: 0.2rem solid #aaaaaa8a;
+            border-radius: 1rem;
+            outline: none;
+            color: var(--color-brand--4);
+            padding: 0.5rem 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+}

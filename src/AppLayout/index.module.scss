@@ -1,0 +1,9 @@
+.layout {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(../assets/img/bg-img.png), linear-gradient(45deg,var(--color-brand--1), var(--color-brand--2));
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}

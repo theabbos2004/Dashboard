@@ -1,0 +1,9 @@
+.Profile{
+    .profile_information, .platform_section{
+        display: flex;
+        gap: 1rem;
+    }
+    .platform_section{
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,17 @@
+.Billing{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    .card_section,.Billing_section{
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .card_section{
+        .card_info{
+            flex-direction: column;
+        }
+    }
+}
