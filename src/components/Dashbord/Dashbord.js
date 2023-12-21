@@ -37,7 +37,7 @@ export default function Dashbord() {
       profit: "+8%",
       icon: "KorzinkaIcon",
     },
-  ]);
+  ]); 
   const getIcon = (el, width = 16, sWidth = 11, height = 16, sHeight = 11) => {
     let Icon = icon[el];
     return (

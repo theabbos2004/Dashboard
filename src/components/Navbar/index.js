@@ -26,7 +26,7 @@ export default function Navbar({ sxd = { width: "20%", minHeight: "100vh" }, sx 
     );
   };
   return (
-    <navbor className={styles.navbor} style={{ ...sxd, ...sx }}>
+    <div className={styles.navbor} style={{ ...sxd, ...sx }}>
       <div className="container">
         <>
           <p className={styles.navbor_title}>VISION UI FREE</p>
@@ -113,7 +113,7 @@ export default function Navbar({ sxd = { width: "20%", minHeight: "100vh" }, sx 
           </div>
         </div>
       </div>
-    </navbor>
+    </div>
   );
 };
 

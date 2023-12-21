@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import Toggle from "../Toggle/Toggle";
 export default function SignUpForm() {
   const navigate = useNavigate();
-  let [form, setForm] = useState({ data: {} });
+  let [form, setForm] = useState({ data: {name:"",email:"",password:"",checked:""} });
   let dispatch = useDispatch();
   let LoginUpFormRef = useRef();
   const LoginUpSprings = useSpring({
@@ -31,7 +31,7 @@ export default function SignUpForm() {
           placeholder="Your name"
           onChange={(e) => {
             let { data } = form;
-            data = { ...data, email: e?.target?.name };
+            data = { ...data, name: e?.target?.value };
             setForm({ ...form, data });
           }}
           onKeyDown={(e) => {

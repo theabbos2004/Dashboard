@@ -149,7 +149,7 @@ export default function Table() {
           <thead>
             <tr>
               {state?.Authors?.thead?.map((item, index) => (
-                <th>{item}</th>
+                <th key={index}>{item}</th>
               ))}
             </tr>
           </thead>

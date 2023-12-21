@@ -11,7 +11,7 @@ import styles from "./index.module.scss";
 import { useNavigate } from 'react-router-dom';
 import Toggle from '../Toggle/Toggle';
 export default function SignInForm() {
-    let [form, setForm] = useState({ data: {} });
+    let [form, setForm] = useState({ data: {email:"",password:"",checked:""} });
     let dispatch = useDispatch();
     const navigate = useNavigate();
     let error = useSelector((store) => store.users.error);

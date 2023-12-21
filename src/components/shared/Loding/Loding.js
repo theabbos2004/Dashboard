@@ -26,7 +26,7 @@ export default function Loding() {
         viewBox="0 0 24 24"
         x="0px"
         y="0px"
-        enable-background="new 0 0 60 60"
+        enableBackground="new 0 0 60 60"
       >
         <linearGradient
           id="loader_gradient"
